@@ -28,7 +28,7 @@ class _TasehTapState extends State<TasehTap> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SizedBox(height: 190),
+          SizedBox(height: 90),
           Stack(
             alignment: Alignment.topCenter,
             
@@ -53,7 +53,7 @@ class _TasehTapState extends State<TasehTap> {
                 child: Image.asset('assets/images/head of seb7a.png',height: size.height*0.10,))],
             
           ),
-          const SizedBox(height: 30,),
+          const SizedBox(height: 10,),
           Text("عدد التسبيحات",textAlign: TextAlign.center,
           style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold,color: Colors.black),),
           Container(
@@ -69,7 +69,7 @@ class _TasehTapState extends State<TasehTap> {
        
             
           ),
-                    const SizedBox(height: 30,),
+                    const SizedBox(height: 20,),
                     Container(
             //width: 100,
             padding: EdgeInsets.all(8),
