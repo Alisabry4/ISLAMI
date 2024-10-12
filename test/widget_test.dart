@@ -8,6 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+// ignore: unused_import
 import 'package:islami/main.dart';
 import 'package:islami/my_app/my_app.dart';
 

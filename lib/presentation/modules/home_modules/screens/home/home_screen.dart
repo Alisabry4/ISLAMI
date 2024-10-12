@@ -4,9 +4,9 @@ import 'package:islami/core/colors_manager.dart';
 import 'package:islami/core/strings_manager.dart';
 import 'package:islami/presentation/modules/home_modules/screens/home/tabs/hadith_tap/hadith_tap.dart';
 import 'package:islami/presentation/modules/home_modules/screens/home/tabs/quarn_tap/quarn_tap.dart';
-import 'package:islami/presentation/modules/home_modules/screens/home/tabs/radio_tab/radio_tap.dart';
+import 'package:islami/presentation/modules/home_modules/screens/home/tabs/tasbeh_tab/Tasbeh_tap.dart';
 import 'package:islami/presentation/modules/home_modules/screens/home/tabs/settings_tap/setting_tap.dart';
-import 'package:islami/presentation/modules/home_modules/screens/home/tabs/tasbeh_tap/Taseh_tap.dart';
+import 'package:islami/presentation/modules/home_modules/screens/home/tabs/radio_tap/radio_tap.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -18,7 +18,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   List<Widget> tabs = [
     QuarnTap(),
-    HadithTap(),
+    HadithTab(),
     TasehTap(),
     RadioTab(),
     SettingTap(),
@@ -56,12 +56,12 @@ class _HomeScreenState extends State<HomeScreen> {
             BottomNavigationBarItem(
               backgroundColor: ColorsManager.goldColor,
               icon:ImageIcon(AssetImage(AssetsManager.hadithIcon)),label: StringsManager.hadithLabel),
+              BottomNavigationBarItem(
+              backgroundColor: ColorsManager.goldColor,
+              icon:ImageIcon(AssetImage(AssetsManager.tasbehIcon)),label: StringsManager.tasbehLabel),
             BottomNavigationBarItem(
               backgroundColor: ColorsManager.goldColor,
               icon:ImageIcon(AssetImage(AssetsManager.radioIcon)),label: StringsManager.radioLabel),
-            BottomNavigationBarItem(
-              backgroundColor: ColorsManager.goldColor,
-              icon:ImageIcon(AssetImage(AssetsManager.tasbehIcon)),label: StringsManager.tasbehLabel),
             BottomNavigationBarItem(
               backgroundColor: ColorsManager.goldColor,
               icon:Icon(Icons.settings),label: StringsManager.settingLabel),

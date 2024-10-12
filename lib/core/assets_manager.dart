@@ -7,5 +7,10 @@ class AssetsManager{
   static const String radioIcon='${base}radio_icon.png';
   static const String tasbehIcon='${base}sebha_icon.png';
   static const String quarn_headr_image='${base}quran_header_icn.jpg';
+  static const String headth_logo='${base}hadith_header.png';
+  static const String tasbeh_logo='${base}body of seb7a.png';
+  static const String tasbeh_logo_1='${base}head of seb7a.png';
+
+
   
 }

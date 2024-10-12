@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:islami/core/routes_manager.dart';
 import 'package:islami/presentation/modules/home_modules/screens/home/tabs/quarn_tap/quarn_tap.dart';
 
+// ignore: must_be_immutable
 class SuraNameWidget extends StatelessWidget {
  SuraItem  suraItem;
 
