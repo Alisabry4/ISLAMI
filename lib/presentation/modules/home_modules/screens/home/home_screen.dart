@@ -18,7 +18,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   List<Widget> tabs = [
     QuarnTap(),
-    HadithTap(),
+    HadithTab(),
     TasehTap(),
     RadioTab(),
     SettingTap(),

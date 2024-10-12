@@ -28,6 +28,7 @@ class MyTheme{
         elevation: 14,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       ),
+      indicatorColor: Colors.white,
         textTheme: const TextTheme(
           headlineMedium: TextStyle(
               fontSize: 21,
